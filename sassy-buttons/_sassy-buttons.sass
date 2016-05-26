@@ -1,11 +1,5 @@
 // Sassy Buttons
 // Compass extension by Jared Hardy - http://www.jaredhardy.com
-
-@import "compass/css3/border-radius"
-@import "compass/css3/box-shadow"
-@import "compass/css3/text-shadow"
-@import "compass/css3/images"
-
 @import "sassy-buttons/sassy-button-gradients"
 @import "sassy-buttons/sassy-button-styles"
 @import "sassy-buttons/sassy-button-text"
@@ -65,7 +59,7 @@ $sb-ie-support: false !default
   font-size: $font-size
   padding: $padding
   @include sassy-button-default-structure
-  @include border-radius($border-radius)
+  border-radius: $border-radius
 
 
 // Fix for the Firefox padding issue
